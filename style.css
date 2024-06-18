@@ -7,6 +7,10 @@
   font-family: "medio";
   src: url("fonts/medio.otf") format("opentype");
 }
+@font-face {
+  font-family: "cocomat";
+  src: url("fonts/cocomat.ttf") format("opentype");
+}
 
 body {
   min-height: 100vh;
@@ -49,7 +53,6 @@ nav a {
   font-weight: 800;
 }
 nav a:hover {
-  /* background-color: black; */
   color: rgb(10, 67, 153);
   padding: 0 15px;
 }
@@ -95,4 +98,13 @@ nav li:first-child {
   .sidebar {
     width: 100%;
   }
+}
+
+.hello {
+  margin: 20px;
+  padding: 10px;
+  font-family: "cocomat";
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
 }
