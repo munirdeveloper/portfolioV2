@@ -74,6 +74,10 @@ nav li:first-child {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+
+  /* Apply backdrop filter for blur effect */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); /* For Safari */ 
 }
 .sidebar li {
   width: 100%;
