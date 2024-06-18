@@ -17,7 +17,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("background.svg");
+  /* background-image: url("background.svg"); */
+  background-color: #afd0f3;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 nav {
