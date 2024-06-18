@@ -77,7 +77,7 @@ nav li:first-child {
 
   /* Apply backdrop filter for blur effect */
   backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px); /* For Safari */ 
+  -webkit-backdrop-filter: blur(12px); /* For Safari */
 }
 .sidebar li {
   width: 100%;
