@@ -108,3 +108,27 @@ nav li:first-child {
   font-weight: 700;
   text-align: center;
 }
+
+.hello {
+  text-align: center; /* Center the text horizontally */
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.me {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.me img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
