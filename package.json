@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "portfoliov2-main",
   "version": "1.0.0",
   "main": "index.js",
+=======
+  "name": "portfoliov2",
+  "version": "1.0.0",
+  "main": "particles.min.js",
+>>>>>>> new-main
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
@@ -11,8 +17,13 @@
   "description": "",
   "devDependencies": {
     "tailwindcss": "^3.4.4"
+<<<<<<< HEAD
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.7"
   }
 }
+=======
+  }
+}
+>>>>>>> new-main
