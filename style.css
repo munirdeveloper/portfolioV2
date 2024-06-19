@@ -122,9 +122,19 @@ p {
   text-shadow: 0 0 7px rgba(255, 255, 255, 0.3),
     0 0 3px rgba(255, 255, 255, 0.3);
 }
-.container {
+
+.intro {
   margin: 20px;
   padding: 10px;
+  font-family: JetBrains Mono, monospace;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: blanchedalmond;
+  position: relative;
+}
+
+.container {
   /* font-family: "cocomat"; */
   font-family: JetBrains Mono, monospace;
   font-size: 2rem;
@@ -229,4 +239,12 @@ canvas.background {
 
 .slide_right:hover {
   box-shadow: inset 400px 0 0 0 #d80286;
+}
+
+.arrow {
+  margin-top: 40px;
+}
+
+.handshake {
+  margin-top: 60px;
 }
