@@ -12,13 +12,13 @@
   src: url("fonts/cocomat.ttf") format("opentype");
 }
 
+/* Global styles */
 body {
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-color: #afd0f3; */
-  background: #282c34;
+  background: #131417;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
   margin: 0;
