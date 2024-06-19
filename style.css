@@ -27,7 +27,8 @@ body {
 nav {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   padding: 10px 20px;
-  background-color: #BBB2A1;
+  /* background-color: #bbb2a1; */
+  background-color: rgba(187, 178, 161, 0.5);
   position: relative;
   z-index: 2;
 }
@@ -250,4 +251,11 @@ canvas.background {
 
 .HandbuttonContainer {
   margin-bottom: 20px;
+}
+
+.item {
+  width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
 }
