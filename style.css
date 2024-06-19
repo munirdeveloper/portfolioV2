@@ -17,15 +17,19 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-image: url("background.svg"); */
-  background-color: #afd0f3;
+  /* background-color: #afd0f3; */
+  background: #282c34;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative; /* Ensure body is positioned relative for proper z-index control */
+  overflow: hidden; /* Prevent scrolling */
 }
 nav {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   padding: 10px 20px;
   background-color: aliceblue;
+  position: relative; /* Ensure nav is positioned relative for proper z-index control */
+  z-index: 2; /* Ensure this is above the canvas */
 }
 nav ul {
   width: 100%;
@@ -108,22 +112,103 @@ nav li:first-child {
 .hello {
   margin: 20px;
   padding: 10px;
-  font-family: "cocomat";
+  /* font-family: "cocomat"; */
+  font-family: JetBrains Mono, monospace;
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
+  color: blanchedalmond;
 }
 
-.hello {
-  text-align: center; /* Center the text horizontally */
-  margin-bottom: 20px; /* Adjust as needed */
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+
+body {
+  font-family: "Roboto";
+  background-color: #131417;
+}
+p {
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.3),
+    0 0 3px rgba(255, 255, 255, 0.3);
+}
+.container {
+  margin: 20px;
+  padding: 10px;
+  /* font-family: "cocomat"; */
+  font-family: JetBrains Mono, monospace;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: blanchedalmond;
+  position: relative; /* Ensure container is positioned relative for proper z-index control */
+  z-index: 2; /* Ensure this is above the canvas */
 }
 
-.background {
+.animation {
+  height: 50px;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height: 2.81rem;
+  margin-bottom: 2.81rem;
+  display: inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  background-color: #20a7d8;
+}
+.second div {
+  background-color: #cd921e;
+}
+.third div {
+  background-color: #c10528;
+}
+
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -5.62rem;
+  }
+  30% {
+    margin-top: -5.62rem;
+  }
+  40% {
+    margin-top: -11.24rem;
+  }
+  60% {
+    margin-top: -11.24rem;
+  }
+  70% {
+    margin-top: -5.62rem;
+  }
+  80% {
+    margin-top: -5.62rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+canvas.background {
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
-  z-index: -1;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Set a low z-index to ensure it stays behind other content */
+  pointer-events: none; /* Ensure the canvas doesn't block interactions with other elements */
 }
