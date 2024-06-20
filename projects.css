@@ -331,3 +331,9 @@ div.attribution {
     font-size: 18px;
   }
 }
+
+@media (max-width: 600px) {
+  .card-container p {
+    font-family: cocomat;
+  }
+}
