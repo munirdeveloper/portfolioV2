@@ -14,14 +14,15 @@
 
 body {
   min-height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background: #131417;
+  /* background: #131417; */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
   margin: 0;
   padding: 0;
+  background-image: url("static/bgimg.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 canvas.background {
