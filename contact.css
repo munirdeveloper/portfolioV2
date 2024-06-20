@@ -143,22 +143,17 @@ input {
   top: -60px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 430px) {
   .mainContainer {
     position: relative;
-    top: -80px;
-  }
-}
-
-@media (max-width: 429px) {
-  .mainContainer {
-    top: -70px;
+    top: -50px; /* Adjust this value as needed */
   }
 }
 
 @media (min-width: 430px) and (max-width: 430px) {
   .mainContainer {
-    top: -90px; /* Adjust to -90px to bring it higher */
+    position: relative;
+    top: -70px; /* Adjust this value as needed */
   }
 }
 
