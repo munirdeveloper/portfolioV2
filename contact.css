@@ -402,17 +402,10 @@ input {
 /* Styles for smaller screens  */
 @media (max-width: 768px) {
   .bigger {
-    top: 45%;
-    transform: translateY(45%);
+    top: 65%;
+    transform: translateY(65%);
   }
   .typetext {
-    font-size: 1rem;
-  }
-}
-
-/* Styles for smaller screens (mobile devices) */
-@media (max-width: 414px) {
-  .typetext {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
