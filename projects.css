@@ -386,8 +386,8 @@ div.attribution {
 /* Styles for smaller screens  */
 @media (max-width: 768px) {
   .bigger {
-    top: 65%;
-    transform: translateY(65%);
+    top: 45%;
+    transform: translateY(45%);
   }
 }
 
