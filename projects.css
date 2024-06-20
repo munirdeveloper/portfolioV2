@@ -373,7 +373,6 @@ div.attribution {
   align-items: center;
 }
 
-/* Styles for laptop-sized screens */
 @media (min-width: 768px) {
   .bigger {
     top: 70%;
@@ -388,6 +387,7 @@ div.attribution {
     transform: translateY(65%);
   }
   .typetext {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
