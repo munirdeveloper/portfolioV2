@@ -402,23 +402,10 @@ input {
 /* Styles for smaller screens  */
 @media (max-width: 768px) {
   .bigger {
-    top: 65%;
-    transform: translateY(65%);
-  }
-}
-
-@media (min-width: 768px) {
-  .typetext {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .typetext {
-    font-size: 1rem;
-  }
-  .bigger {
     top: 45%;
     transform: translateY(45%);
+  }
+  .typetext {
+    font-size: 1rem;
   }
 }
