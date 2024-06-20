@@ -411,5 +411,6 @@ input {
 @media (max-width: 768px) {
   .typetext {
     font-size: 1rem;
+    margin-top: 10px;
   }
 }
