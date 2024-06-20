@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="output.css">
-    <title>Home</title>
+    <title>My Projects</title>
+    <link rel="stylesheet" href="projects.css">
 </head>
 
 <body>
@@ -35,50 +34,24 @@
         </ul>
     </nav>
 
-    <main class="intro">
-        <p>Hello 👋 I'm</p>
-        <section class="animation">
-            <div class="first">
-                <div>Munir Abood</div>
-            </div>
-            <div class="second">
-                <div>Developer</div>
-            </div>
-            <div class="third">
-                <div>Programmer</div>
-            </div>
-        </section>
-    </main>
-
-    <div class="container">
-        <div class="item">
-            <div class="logoContainer">
-                <img src="static/githublogo.webp" alt="GitHub Logo">
-            </div>
-            <div class="buttonContainer">
-                <a href="https://github.com/munirdeveloper" target="_blank" rel="noopener noreferrer"
-                    class="button_slide slide_right">GitHub</a>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="arrow">
-                <img src="static/arrowlogo.png" alt="arrow picture">
-            </div>
-            <div class="buttonContainer">
-                <a href="static/CV.pdf" target="_blank" rel="noopener noreferrer" class="button_slide slide_right">Check
-                    out my CV</a>
-            </div>
-        </div>
-
-        <div class="item">
-            <div class="handshake">
-                <img src="static/connect.png" alt="handshake picture">
-            </div>
-            <div class="HandbuttonContainer">
-                <a href="https://www.linkedin.com/in/munir-al-boasy-459059293/" target="_blank"
-                    rel="noopener noreferrer" class="button_slide slide_right">Let's
-                    connect</a>
+    <div class="card-container">
+        <a href="https://github.com/munirdeveloper/Harry-Potter-Quiz" target="_blank" class="hero-image-container">
+            <img class="hero-image" src="static/hp_background.jpg" alt="Spinning glass cube" />
+        </a>
+        <main class="main-content">
+            <h1>Harry Potter: Sorting Hat</h1>
+            <p>Our Equilibrium collection promotes balance and calm.</p>
+        </main>
+        <div class="card-attribute">
+            <div class="flex-row">
+                <div class="time-left">
+                    <img src="static/svelte.png" alt="svelte logo" class="small-image" />
+                    <p>Svelte</p>
+                </div>
+                <div class="time-left">
+                    <img src="static/tailwind.png" alt="New Logo" class="small-image" />
+                    <p>Tailwind</p>
+                </div>
             </div>
         </div>
     </div>
@@ -97,9 +70,9 @@
     </script>
 
     <canvas class="background"></canvas>
-    <script src="./node_modules/preline/dist/preline.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
     <script src="particles.min.js"></script>
+
 </body>
 
 </html>
