@@ -17,7 +17,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background: #50e250;
+  background: #131417;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
   margin: 0;
@@ -138,6 +138,7 @@ input {
 .mainContainer {
   display: flex;
   min-height: 100vh;
+  margin-top: -50px;
 }
 
 .container {
@@ -270,10 +271,10 @@ input {
   border: none;
   border-bottom: 1px solid #666;
   color: #ddd;
-  font-size: 14px;
-  text-transform: uppercase;
+  font-size: 16px;
   outline: none;
   transition: border-color 0.2s;
+  font-family: cocomat;
 }
 
 .app-form-control::placeholder {
