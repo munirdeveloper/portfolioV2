@@ -338,8 +338,6 @@ div.attribution {
   }
 }
 
-/* typing effect */
-
 .typetext {
   color: white;
   font-size: 1.5rem;
@@ -386,26 +384,10 @@ div.attribution {
 /* Styles for smaller screens  */
 @media (max-width: 768px) {
   .bigger {
-    top: 45%;
-    transform: translateY(45%);
+    top: 65%;
+    transform: translateY(65%);
   }
-}
-
-@media (min-width: 768px) {
   .typetext {
-    font-size: 1.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .typetext {
-    font-size: 1.2rem;
-  }
-}
-
-/* Styles for smaller screens (mobile devices) */
-@media (max-width: 414px) {
-  .typetext {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
