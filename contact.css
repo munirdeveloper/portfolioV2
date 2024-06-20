@@ -406,3 +406,15 @@ input {
     transform: translateY(65%);
   }
 }
+
+@media (min-width: 768px) {
+  .typetext {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .typetext {
+    font-size: 1.2rem;
+  }
+}
