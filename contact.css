@@ -150,6 +150,18 @@ input {
   }
 }
 
+@media (max-width: 429px) {
+  .mainContainer {
+    top: -70px;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 430px) {
+  .mainContainer {
+    top: -90px; /* Adjust to -90px to bring it higher */
+  }
+}
+
 .container {
   flex: 0 1 700px;
   margin: auto;
