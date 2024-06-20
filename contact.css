@@ -140,6 +140,14 @@ input {
   display: flex;
   min-height: 100vh;
   margin-top: -50px;
+  top: -60px;
+}
+
+@media (max-width: 414px) {
+  .mainContainer {
+    position: relative;
+    top: -80px; /* Adjust as needed */
+  }
 }
 
 .container {
@@ -406,6 +414,6 @@ input {
     transform: translateY(65%);
   }
   .typetext {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
