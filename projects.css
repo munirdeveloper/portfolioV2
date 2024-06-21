@@ -106,9 +106,6 @@ nav li:first-child {
   .menu-button {
     display: block;
   }
-  .sidebar {
-    z-index: 1001;
-  }
   .animation {
     z-index: 0;
   }
@@ -314,6 +311,7 @@ img.eye {
   position: relative;
   display: block;
   overflow: hidden;
+  z-index: 0;
 }
 
 .hero-image-container:hover::after {
