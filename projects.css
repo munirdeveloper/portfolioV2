@@ -58,7 +58,7 @@ nav a {
   color: black;
   border-radius: 10px;
   transition: background-color 0.2s, color 0.2s;
-  font-family: "medio";
+  font-family: monospace;
   font-size: 2rem;
   font-weight: 800;
 }
