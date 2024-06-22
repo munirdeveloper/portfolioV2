@@ -415,6 +415,10 @@ canvas.background {
   border-radius: 0 0 40px 40px;
 }
 
+.card_link {
+  text-decoration: none;
+}
+
 .cardButtons:hover {
   transform: scale(0.9, 0.9);
   box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
